@@ -1,0 +1,12 @@
+# CMake generated Testfile for 
+# Source directory: /home/pi/sdk-folder/sdk-source/avs-device-sdk/core/acsdkPostConnectOperationProviderRegistrar/test
+# Build directory: /home/pi/sdk-folder/sdk-build/core/acsdkPostConnectOperationProviderRegistrar/test
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(PostConnectOperationProviderRegistrarTest.test_simplestFailureCase "/home/pi/sdk-folder/sdk-build/core/acsdkPostConnectOperationProviderRegistrar/test/PostConnectOperationProviderRegistrarTest" "--gtest_filter=PostConnectOperationProviderRegistrarTest.test_simplestFailureCase")
+add_test(PostConnectOperationProviderRegistrarTest.test_simplestSuccessCase "/home/pi/sdk-folder/sdk-build/core/acsdkPostConnectOperationProviderRegistrar/test/PostConnectOperationProviderRegistrarTest" "--gtest_filter=PostConnectOperationProviderRegistrarTest.test_simplestSuccessCase")
+add_test(PostConnectOperationProviderRegistrarTest.test_getProvidersBeforeStartup "/home/pi/sdk-folder/sdk-build/core/acsdkPostConnectOperationProviderRegistrar/test/PostConnectOperationProviderRegistrarTest" "--gtest_filter=PostConnectOperationProviderRegistrarTest.test_getProvidersBeforeStartup")
+add_test(PostConnectOperationProviderRegistrarTest.test_getEmptyProvidersAfterStartup "/home/pi/sdk-folder/sdk-build/core/acsdkPostConnectOperationProviderRegistrar/test/PostConnectOperationProviderRegistrarTest" "--gtest_filter=PostConnectOperationProviderRegistrarTest.test_getEmptyProvidersAfterStartup")
+add_test(PostConnectOperationProviderRegistrarTest.test_getProvidersAfterStartup "/home/pi/sdk-folder/sdk-build/core/acsdkPostConnectOperationProviderRegistrar/test/PostConnectOperationProviderRegistrarTest" "--gtest_filter=PostConnectOperationProviderRegistrarTest.test_getProvidersAfterStartup")
+add_test(PostConnectOperationProviderRegistrarTest.test_registerProvidersAfterStartup "/home/pi/sdk-folder/sdk-build/core/acsdkPostConnectOperationProviderRegistrar/test/PostConnectOperationProviderRegistrarTest" "--gtest_filter=PostConnectOperationProviderRegistrarTest.test_registerProvidersAfterStartup")
